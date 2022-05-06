@@ -1,8 +1,9 @@
 /*Section Header*/
 .header{
-    background-color: rgb(6, 5, 43);
-    background-position: center;
+    background-image: url(../img/header.jpeg);
+    background-position: top;
     margin-bottom: 10px;
+    text-decoration: none;
     } 
 
 .img-logo { 
@@ -99,3 +100,16 @@ clip-path: polygon(
         height: 11vw;
     }
   }
+
+  .slide{ 
+      margin-top: 30px;
+  } 
+
+  .slide-img-top{
+    object-fit: cover;
+}
+
+.carousel-innova-middle{
+    top: 35%;
+
+}
